@@ -370,6 +370,7 @@ input::-webkit-search-results-decoration {
   text-transform: uppercase;
   padding-top: 20px;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .meet-the-team-text-parag {
@@ -379,6 +380,7 @@ input::-webkit-search-results-decoration {
   color: #a2a4a8;
   padding-bottom: 20px;
   font-size: 14px;
+  padding-right: 20px;
 }
 
 .meet-card-background {
