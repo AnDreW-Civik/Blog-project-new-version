@@ -422,6 +422,9 @@ input::-webkit-search-results-decoration {
   background: url(Blog/icon7.png) 50% 50% no-repeat;
   background-color: #3a454d;
 }
+.img-team:hover {
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
+}
 
 .img-team:hover .meet-card-background {
   background-color: #3a454d;
@@ -451,11 +454,12 @@ input::-webkit-search-results-decoration {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-bottom: 60px;
-  margin-right: 8px;
 }
 .work-pict {
-  padding-bottom: 20px;
+  justify-content: space-between;
+  position: relative;
+  height: 242px;
+  margin-bottom: 30px;
 }
 .pict {
   width: 100%;
@@ -464,7 +468,8 @@ input::-webkit-search-results-decoration {
 .lovely-work-btn {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
 .lovely-work-btn a {
   text-align: center;
@@ -481,6 +486,75 @@ input::-webkit-search-results-decoration {
 .lovely-work-btn a:hover {
   background-color: #23b7a3;
   border: 2px solid transparent;
+}
+.work-icon {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+.work-card-background {
+  display: none;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 20px;
+  background-color: #292f36;
+  padding-top: 24px;
+  padding-bottom: 22px;
+  position: relative;
+  top: -64px;
+}
+
+.work-icon-plus {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url(Blog/icon10.png) 50% 50% no-repeat;
+}
+
+.work-pict:hover .work-card-background {
+  display: block;
+}
+
+.work-pict:hover .work-icon {
+  display: block;
+}
+
+.work-pict:hover {
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
+}
+.what-we-do-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 165px;
+}
+.what-we-do-img {
+  margin-bottom: 40px;
+}
+.what-we-do-img-center {
+  display: flex;
+  justify-content: center;
+}
+.what-we-do-name {
+  padding-top: 34px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.what-we-do-description {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #b0b1b3;
+  padding-top: 28px;
+  line-height: 22px;
 }
 
 /* tablet */
@@ -627,8 +701,8 @@ input::-webkit-search-results-decoration {
   .lovely-work-btn a {
     width: 25%;
   }
-  .pict {
-    width: 100%;
+  .work-pict {
+    width: 330px;
   }
 }
 
@@ -696,9 +770,6 @@ input::-webkit-search-results-decoration {
   }
   .lovely-work-btn a {
     width: 17%;
-  }
-  .pict {
-    width: 100%;
   }
 }
 
@@ -777,12 +848,6 @@ input::-webkit-search-results-decoration {
     height: 60px;
     margin-right: 1px;
     margin-top: 1px;
-  }
-  /* .btn-work {
-    width: 14%;
-  } */
-  .pict {
-    width: 100%;
   }
 }
 
