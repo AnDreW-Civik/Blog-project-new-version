@@ -434,9 +434,6 @@ input::-webkit-search-results-decoration {
   background: url(Blog/icon7.png) 50% 50% no-repeat;
   background-color: #3a454d;
 }
-/* .img-team:hover { */
-/* box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8); */
-/* } */
 
 .img-team:hover .meet-card-background {
   background-color: #3a454d;
@@ -535,9 +532,6 @@ input::-webkit-search-results-decoration {
   display: block;
 }
 
-/* .work-pict:hover { */
-/* box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8); */
-/* } */
 .what-we-do-card {
   display: flex;
   flex-wrap: wrap;
@@ -669,42 +663,6 @@ input::-webkit-search-results-decoration {
   justify-content: center;
   align-items: center;
 }
-
-/* .modal-block {
-  width: 555px;
-  margin: 80px auto;
-  border: 1px solid gray;
-  background-color: white;
-  padding: 15px;
-}
-.form-fields {
-  margin: 15px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.form-fields input {
-  width: 49%;
-  height: 40px;
-  padding: 5px;
-}
-.close-btn {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.text-area-field {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.form-name {
-  display: flex;
-}
-
-textarea {
-  width: 100%;
-  resize: none;
-} */
 
 .modal {
   justify-content: center;
