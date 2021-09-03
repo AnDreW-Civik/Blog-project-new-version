@@ -118,6 +118,7 @@ html {
   overflow-x: scroll;
   justify-content: space-between;
   margin-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .link a {
@@ -818,6 +819,7 @@ textarea {
     overflow-x: visible;
     justify-content: space-between;
     margin-top: 18px;
+    /* padding-bottom: 0; */
   }
   .row {
     display: flex;
@@ -929,6 +931,7 @@ textarea {
   }
   .nav-links {
     margin-right: 10px;
+    /* padding-bottom: 0; */
   }
   .link a {
     font-size: 14px;
