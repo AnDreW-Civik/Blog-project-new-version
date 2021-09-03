@@ -819,7 +819,7 @@ textarea {
     overflow-x: visible;
     justify-content: space-between;
     margin-top: 18px;
-    /* padding-bottom: 0; */
+    padding-bottom: 0;
   }
   .row {
     display: flex;
