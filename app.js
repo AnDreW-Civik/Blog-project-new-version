@@ -21,3 +21,13 @@ modal.addEventListener("click", function (e) {
     closeModal();
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  new Splide(".splide", {
+    type: "loop",
+    perPage: 1,
+    autoplay: true,
+    Infinity: true,
+    pauseOnHover: false,
+  }).mount();
+});

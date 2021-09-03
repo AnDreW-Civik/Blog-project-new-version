@@ -67,7 +67,20 @@ html {
 }
 
 #slider {
-  background: url(Blog/img2.png) no-repeat 50% 50%;
+  position: relative;
+  height: 660px;
+}
+
+.splide__arrows {
+  display: none;
+}
+
+.splide__slide > img {
+  width: 100%;
+  height: 660px;
+}
+.splide__pagination {
+  justify-content: flex-end !important;
 }
 
 .main-h1 {
@@ -207,10 +220,12 @@ input::-webkit-search-results-decoration {
 }
 
 .container-main {
+  position: absolute;
   display: flex;
   align-items: center;
   width: 100%;
   height: 660px;
+  top: 0;
 }
 
 .main-h1 {
