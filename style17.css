@@ -1151,15 +1151,20 @@ textarea {
     height: 100%;
     z-index: 1000;
     flex-direction: column;
+    padding-top: 30px;
   }
   .logo {
     justify-content: start;
+  }
+  .link {
+    justify-content: center;
   }
   .link a {
     text-align: center;
   }
   .nav-links {
     margin-right: 0;
+    margin-bottom: 15px;
     padding: 13px;
     border: 2px solid #23b7a3;
     border-radius: 6px;
