@@ -1152,13 +1152,13 @@ textarea {
     height: 100%;
     z-index: 1000;
     flex-direction: column;
-    padding-top: 35px;
+    padding-top: 68px;
   }
   .logo {
     justify-content: start;
   }
   .link {
-    /* justify-content: center; */
+    justify-content: stretch;
   }
   .link a {
     text-align: center;
@@ -1166,9 +1166,11 @@ textarea {
   .nav-links {
     margin-right: 0;
     margin-bottom: 20px;
-
     padding: 13px;
-    border: 2px solid #23b7a3;
+    border: 2px solid black;
     border-radius: 6px;
+  }
+  .nav-links:active {
+    border: 2px solid white;
   }
 }
