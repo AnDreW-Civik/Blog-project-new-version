@@ -1127,7 +1127,7 @@ textarea {
     max-width: 100%;
     transform: translateX(150%);
     transition: all 500ms ease-in-out;
-    padding: 15px;
+    padding: 6px 30px;
   }
   .nav-mobile-menu.active-menu span:first-child {
     top: 50%;
@@ -1146,7 +1146,7 @@ textarea {
     opacity: 1;
     visibility: visible;
     transform: translateX(0);
-    top: 50px;
+    top: 58px;
     background-color: #000000e0;
     height: 100%;
     z-index: 1000;
@@ -1154,5 +1154,14 @@ textarea {
   }
   .logo {
     justify-content: start;
+  }
+  .link a {
+    text-align: center;
+  }
+  .nav-links {
+    margin-right: 0;
+    padding: 13px;
+    border: 2px solid #23b7a3;
+    border-radius: 6px;
   }
 }
