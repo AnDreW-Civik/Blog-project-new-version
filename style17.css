@@ -1095,9 +1095,10 @@ textarea {
   .nav-mobile-menu {
     width: 15px;
     height: 15px;
-    position: relative;
-    bottom: 28px;
-    left: 95%;
+    position: fixed;
+    top: 12px;
+    left: 94%;
+    z-index: 1000;
   }
   .nav-mobile-menu span {
     height: 1px;
@@ -1146,25 +1147,26 @@ textarea {
     opacity: 1;
     visibility: visible;
     transform: translateX(0);
-    top: 58px;
-    background-color: #000000e0;
+    top: 0;
+    background-color: #6f04fded;
     height: 100%;
     z-index: 1000;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 35px;
   }
   .logo {
     justify-content: start;
   }
   .link {
-    justify-content: center;
+    /* justify-content: center; */
   }
   .link a {
     text-align: center;
   }
   .nav-links {
     margin-right: 0;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+
     padding: 13px;
     border: 2px solid #23b7a3;
     border-radius: 6px;
