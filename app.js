@@ -26,8 +26,22 @@ document.addEventListener("DOMContentLoaded", function () {
   new Splide(".splide", {
     type: "loop",
     perPage: 1,
-    autoplay: true,
+    autoplay: false,
     Infinity: true,
     pauseOnHover: false,
   }).mount();
+});
+
+//  mobile hamburger
+
+let mobileMenu = document.querySelector(".nav-mobile-menu");
+let mainMenu = document.querySelector(".navigation");
+
+mobileMenu.addEventListener("click", function () {
+  mobileMenu.classList.toggle("active-menu");
+  if (mobileMenu.classList.contains("active-menu")) {
+    mainMenu.classList.add("active-menu");
+  } else {
+    mainMenu.classList.remove("active-menu");
+  }
 });
