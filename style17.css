@@ -1124,8 +1124,8 @@ textarea {
     top: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
+    /* max-width: 50%; */
     transform: translateX(150%);
     transition: all 500ms ease-in-out;
     padding: 6px 30px;
@@ -1148,7 +1148,10 @@ textarea {
     visibility: visible;
     transform: translateX(0);
     top: 0;
-    background-color: #6f04fded;
+    background: #ffe000;
+    background: -webkit-linear-gradient(to bottom, #799f0c, #ffe000);
+    background: linear-gradient(to bottom, #799f0c, #ffe000);
+
     height: 100%;
     z-index: 1000;
     flex-direction: column;
@@ -1158,19 +1161,16 @@ textarea {
     justify-content: start;
   }
   .link {
-    justify-content: stretch;
+    justify-content: space-around;
   }
   .link a {
     text-align: center;
+    color: black;
   }
   .nav-links {
     margin-right: 0;
-    margin-bottom: 30px;
     padding: 13px;
     border: 2px solid black;
     border-radius: 6px;
-  }
-  .nav-links:active {
-    border: 2px solid white;
   }
 }
