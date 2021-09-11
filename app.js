@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
   new Splide(".splide", {
     type: "loop",
     perPage: 1,
-    autoplay: false,
+    autoplay: true,
     Infinity: true,
     pauseOnHover: false,
   }).mount();
