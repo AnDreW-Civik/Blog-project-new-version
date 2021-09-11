@@ -1155,7 +1155,7 @@ textarea {
     height: 100%;
     z-index: 1000;
     flex-direction: column;
-    padding-top: 68px;
+    padding-top: 30px;
   }
   .logo {
     justify-content: start;
